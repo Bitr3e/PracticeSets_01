@@ -10,6 +10,18 @@ namespace PracticeSets_01
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter a number: ");
+            int num = int.Parse(Console.ReadLine());
+
+            if (num >= 0)
+            {
+                Console.Write($"The number {num} is positive");
+            }
+
+            else
+            {
+                Console.WriteLine($"The number {num} is negative");
+            }
         }
     }
 }
